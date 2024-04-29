@@ -5,7 +5,9 @@ export default function Header() {
     return (
         <>
             <div className="header">
-                <img src={me} alt="A picture of myself" className="header--picture" />
+                <div className="pic_holder">
+                    <img src={me} alt="A picture of myself" className="header--picture" />
+                </div>
                 <h1 className="header--name">Adel Ashraf </h1>
                 <p className="header--title">Frontend developer</p>
                 <p className="header--website"><a href="https://adel-ashraf-business-card.netlify.app/" className="header--website" target="_blank">This website</a></p>
