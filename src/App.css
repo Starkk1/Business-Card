@@ -116,8 +116,8 @@ body {
 
 .footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-evenly;
   height: 64px;
   background-color: #161619;
   margin-top: 3em;
@@ -126,7 +126,7 @@ body {
 }
 
 .footer--item {
-  margin: 0 35px;
+  
   text-decoration: none;
   color: #918E9B;
 }
